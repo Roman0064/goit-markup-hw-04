@@ -92,6 +92,15 @@ ul{
 .hero{
     background-color: #2E2F42;
     color: #ffffff;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ), url("../images/backgroung-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -160,6 +169,54 @@ ul{
 }
 .feature-li{
     width: 264px;
+}
+.strategy::before{
+    display: block;
+    content: "";
+    height: 120px;
+    background-image: url("../images/antenna.png");
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.punctuality::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-image: url("../images/clock.png");
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.diligence::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-image: url("../images/diagram.png");
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.technologies::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-image: url("../images/astronaut.png");
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 .feature-p{
     margin-top: 8px;
